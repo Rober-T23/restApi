@@ -10,6 +10,6 @@ app.set("port", 3001)
 app.use(morgan("dev"));
 
 //Routes
-app.use(router);
+app.use('/programs',router);
 
 export default app;
